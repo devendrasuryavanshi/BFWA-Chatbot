@@ -10,6 +10,8 @@ A full-stack application that integrates Gemini AI for contextual conversations 
 - **Chat History**: Persistent storage of conversations for authenticated users
 - **Responsive UI**: Clean, modern interface built with Next.js and Tailwind CSS
 
+Access the live application: [Gemini AI Chatbot](https://bfwa-chatbot.vercel.app/)
+
 ## Technology Stack
 
 - **Frontend**: Next.js, React, Tailwind CSS, shadcn/ui
