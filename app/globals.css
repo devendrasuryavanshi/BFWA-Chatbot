@@ -63,7 +63,33 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 3px;
+  transition: all 0.2s ease;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background: #33333320;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #888888;
 }
